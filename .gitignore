@@ -1,51 +1,24 @@
-# ======================
-# Python
-# ======================
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.log
-*.sqlite3
-.env
-.env.*
-venv/
+# Python virtual environment
 env/
-ENV/
+venv/
 .venv/
 
-# Django specific
+# Django
+__pycache__/
+*.pyc
 db.sqlite3
-media/
-staticfiles/
+.env
 
-# ======================
 # Node / React
-# ======================
 node_modules/
 npm-debug.log*
-yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# ======================
-# Build folders
-# ======================
-dist/
-build/
+# API secrets / local configs
+.env
+.env.local
+.env.production
 
-# ======================
-# OS / Editor
-# ======================
+# OS files
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
-
-# ======================
-# Environment files
-# ======================
-*.env
-# Secrets / credentials
-serviceAccountKey.json
-*.json
