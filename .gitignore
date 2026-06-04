@@ -1,23 +1,23 @@
-# Python virtual environment
+# Virtual Environment
 env/
 venv/
 .venv/
+envvv/
 
-# Django
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Django database
 db.sqlite3
+*/db.sqlite3
+
+# Node
+node_modules/
+*/node_modules/
+
+# Environment files
 .env
 
-
-# API secrets / local configs
-.env
-.env.local
-.env.production
-
-# OS files
-.DS_Store
-Thumbs.db
-# Secrets
+# Firebase secret key
 serviceAccountKey.json
-*.json
