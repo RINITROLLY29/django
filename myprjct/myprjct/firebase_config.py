@@ -2,8 +2,8 @@ import firebase_admin
 from firebase_admin import credentials
 import os
 
-# Use the exact absolute path you provided
-CRED_PATH = r'C:\Users\rinto\OneDrive\Desktop\djangoooo\myprjct\serviceAccountKey.json'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CRED_PATH = os.path.join(BASE_DIR, "serviceAccountKey.json")
 
 def initialize_firebase():
     """
